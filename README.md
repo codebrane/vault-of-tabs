@@ -1,8 +1,8 @@
-# Tab-O-Matic
+# Vault of Tabs
 
-Have you ever been deep in research in Firefox, following link after link after, sigh, yet another link, only to find you've ended up with, sigh, 100+ tabs open? Quite apart from a valuable historic record of your internetical perambulations, you want to save these tabs for posterity and to perhaps see what you looked at in your dotage. Well here it is, the ideal tool for you. Tab-O-Matic will save all your tabs in a vault of your choosing, in a nice friendly JSON format. If you're so inclined you could pop them into a sqlite3 database perchance? Or simply delve into your Tab-O-Matic vaults of horror and grep for something you've forgotten. I just did that in fact and it worked a treat!
+Have you ever been deep in research in Firefox, following link after link after, sigh, yet another link, only to find you've ended up with, sigh, 100+ tabs open? Quite apart from a valuable historic record of your internetical perambulations, you want to save these tabs for posterity and to perhaps see what you looked at in your dotage. Well here it is, the ideal tool for you. Tab-O-Matic will save all your tabs in a vault of your choosing, in a nice friendly JSON format. If you're so inclined you could pop them into a sqlite3 database perchance? Or simply delve into your Vault of Tabs vaults of horror and grep for something you've forgotten. I just did that in fact and it worked a treat!
 
-When I get round to it, I'll add the ability to restore a Firefox tab mess from your Tab-O-Matic vault of horror.
+When I get round to it, I'll add the ability to restore a Firefox tab mess from your Vault of Tabs vault of horror.
 
 I'll also get round to designing an icon but for now I'm happy to see my tab mess end up in a nice JSON vault using the default Firefox add-on icon.
 
@@ -57,4 +57,4 @@ additionally, all tabs are stored in a master JSON file:
 
 ##@todo
 
-* Restore tabs from Tab-O-Matic JSON vault (coming soon...)
+* Restore tabs from Vault of Tabs JSON vault (coming soon...)
