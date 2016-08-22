@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+  <body>
+
+    <div class="content">
+      <label for="tabsDirName">Save tabs in this vault:</label>
+      <input id="tabsDirName" type="text" onfocus="this.select();">
+    </div>
+
+    <div class="content">
+      <label><input type="checkbox" id="appendDate" value="appendDateCheckbox"> append date to tabs vault</label><br>
+    </div>
+
+    <div class="content">
+      <button id="saveTabsButton" type="button">Add tabs to vault!</button>
+    </div>
+
+    <div id="progress" class="content">
+      <progress id="tabsStatus" value="0" max="0"></progress>
+    </div>
+
+  </body>
+</html>

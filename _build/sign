@@ -1,0 +1,6 @@
+# https://www.mozilla.org/en-US/firefox/developer/
+# https://addons.mozilla.org/en-GB/developers/addon/api/key/
+# https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#jpm_sign
+AMO_API_KEY=API_KEY
+AMO_API_SECRET=API_SECRET
+jpm sign --api-key ${AMO_API_KEY} --api-secret ${AMO_API_SECRET} --xpi codebranevaultoftabs.xpi
