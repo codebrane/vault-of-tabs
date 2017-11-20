@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "codebranevaultoftabs",
+	"version": "0.0.2",
+  "description": "Save all open tabs to a Vault of Tabs",
+  "icons": {
+    "48": "data/icon-16.png",
+		"48": "data/icon-32.png",
+		"48": "data/icon-64.png"
+  },
+	"background": {
+	  "scripts": ["index.js"]
+	},
+	"browser_action": {
+	  "default_icon": "data/icon-32.png"
+	},
+	"permissions": [
+    "tabs",
+		"downloads"
+	]
+}
