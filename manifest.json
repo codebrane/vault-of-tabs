@@ -9,7 +9,7 @@
 		"48": "data/icon-64.png"
   },
 	"background": {
-	  "scripts": ["index.js"]
+	  "scripts": ["index.js", "moment.min.js"]
 	},
 	"browser_action": {
 	  "default_icon": "data/icon-32.png"
