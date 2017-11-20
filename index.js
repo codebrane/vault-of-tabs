@@ -6,7 +6,8 @@ function saveTabsInVault(tabs) {
 				index: tab.index,
 				title: tab.title,
 				url: tab.url,
-				lastAccessed: new Date(tab.lastAccessed)
+				// lastAccessed: new Date(tab.lastAccessed)
+				lastAccessed: moment(tab.lastAccessed).format('dddd MMMM Do YYYY, HH:mm:ss')
 			}
 		);
   }
