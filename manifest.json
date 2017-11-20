@@ -1,18 +1,23 @@
 {
 	"manifest_version": 2,
-	"name": "codebranevaultoftabs",
-	"version": "0.0.2",
-  "description": "Save all open tabs to a Vault of Tabs",
+	"version": "0.0.4",
+	"name": "Vault of Tabs",
+	"author": "Alistair Young",
+	"description": "Saves your tabs to a JSON file in your downloads folder",
+	"developer": {
+	  "name": "Alistair Young",
+	  "url": "http://codebrane.com"
+	},
   "icons": {
-    "48": "data/icon-16.png",
-		"48": "data/icon-32.png",
-		"48": "data/icon-64.png"
+    "16": "icons/icon-16.png",
+		"32": "icons/icon-32.png",
+		"64": "icons/icon-64.png"
   },
 	"background": {
 	  "scripts": ["index.js", "moment.min.js"]
 	},
 	"browser_action": {
-	  "default_icon": "data/icon-32.png"
+	  "default_icon": "icons/icon-32.png"
 	},
 	"permissions": [
     "tabs",
