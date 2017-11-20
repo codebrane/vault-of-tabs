@@ -1,2 +1,0 @@
-FIREFOX_DEVELOPER_EDITION=/Users/alistair/dev/firefox/ffdeveloper/FirefoxDeveloperEdition.app/Contents/MacOS/firefox
-jpm -b ${FIREFOX_DEVELOPER_EDITION} run
